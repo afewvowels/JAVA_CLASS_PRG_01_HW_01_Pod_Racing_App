@@ -34,7 +34,7 @@ public class JAVA_CLASS_PRG_01_HW_01_Pod_Racing_App extends JFrame implements Ac
     private Pod[] pods;
     int podCount = 4;
     
-    public PodApp() {
+    public JAVA_CLASS_PRG_01_HW_01_Pod_Racing_App() {
         
         // Construct a panel to put the board on and another for the buttons
         JPanel boardPanel = new JPanel(new GridLayout(height, width));
@@ -166,7 +166,7 @@ public class JAVA_CLASS_PRG_01_HW_01_Pod_Racing_App extends JFrame implements Ac
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-//        PodApp a = new PodApp();
+        JAVA_CLASS_PRG_01_HW_01_Pod_Racing_App a = new JAVA_CLASS_PRG_01_HW_01_Pod_Racing_App();
         System.out.println("Program ran");
     }
 }
