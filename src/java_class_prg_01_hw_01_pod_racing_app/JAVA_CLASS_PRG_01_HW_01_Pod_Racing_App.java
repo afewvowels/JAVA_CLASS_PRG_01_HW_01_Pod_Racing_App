@@ -180,6 +180,6 @@ public class JAVA_CLASS_PRG_01_HW_01_Pod_Racing_App extends JFrame implements Ac
      */
     public static void main(String[] args) {
         JAVA_CLASS_PRG_01_HW_01_Pod_Racing_App a = new JAVA_CLASS_PRG_01_HW_01_Pod_Racing_App();
-        System.out.println("Program ran");
+//         System.out.println("Program ran");
     }
 }
