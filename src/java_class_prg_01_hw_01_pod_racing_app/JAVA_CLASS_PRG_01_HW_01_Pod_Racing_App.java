@@ -169,6 +169,8 @@ public class JAVA_CLASS_PRG_01_HW_01_Pod_Racing_App extends JFrame implements Ac
             pods[p].move();
             pods[p].randomChange();
             pods[p].playerAt(playerX, playerY);
+//            Debug output
+//            pods[p].toString(p+1);
         }
         
         // Redraw the board

@@ -204,4 +204,11 @@ public class Pod {
     public int getY() {
         return posY;
     }
+    
+    public void toString(int idNum) {
+        System.out.println("Info for Pod #" + idNum);
+        System.out.println("Pod caught status: " + this.isCaught());
+        System.out.println("Pod location (x,y): (" + this.posX + "," + this.posY + ")");
+        System.out.println("Pod movement direction: " + this.currentDirection);
+    }
 }
