@@ -107,7 +107,7 @@ public class Pod {
                     posY++;
 //                    System.out.println("DEBUG_MOVE_NORTH");
                 }
-                else if (posY == boardHeight - 1) {
+                else if (posY >= boardHeight - 1) {
                     currentDirection = "south";
 //                    System.out.println("DEBUG_CHANGE_SOUTH");
                 }
@@ -117,7 +117,7 @@ public class Pod {
                     posY--;
 //                    System.out.println("DEBUG_MOVE_SOUTH");
                 }
-                else if (posY == 0) {
+                else if (posY <= 0) {
                     currentDirection = "north";
 //                    System.out.println("DEBUG_CHANGE_NORTH");
                 }
@@ -127,7 +127,7 @@ public class Pod {
                     posX++;
 //                    System.out.println("DEBUG_MOVE_EAST");
                 }
-                else if (posX == boardWidth - 1) {
+                else if (posX >= boardWidth - 1) {
                     currentDirection = "west";
 //                    System.out.println("DEBUG_CHANGE_WEST");
                 }
@@ -137,7 +137,7 @@ public class Pod {
                     posX--;
 //                    System.out.println("DEBUG_MOVE_WEST");
                 }
-                else if (posX == 0) {
+                else if (posX <= 0) {
                     currentDirection = "east";
 //                    System.out.println("DEBUG_CHANGE_EAST");
                 }
